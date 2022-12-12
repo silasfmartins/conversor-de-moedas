@@ -30,7 +30,7 @@ Esse projeto não possui um sistema de versionamento.
 
 ## 🆙 Projeto no ar
 
-É possível acessar a aplicação através da URL: [Link](https://previsaodotempo.vercel.app/) .
+É possível acessar a aplicação através da URL: [Link](https://silasfmartins.github.io/conversor-de-moedas/) .
 
 ## 👨‍💻 Contribuir/Contributing
 
