@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Conversor de Moedas" height="80" title="Plant Manager" src="./assets/img/imagem.jpg" />
+  <img alt="Conversor de Moedas" height="80" title="Plant Manager" src="./assets/img/imagem.png" />
 </h1>
 
 <p align="center">
