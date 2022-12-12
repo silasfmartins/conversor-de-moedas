@@ -8,7 +8,7 @@
 
 ## 💻 Projeto
 Projeto desenvolvido baseado em um projeto da Alura
-Essa aplicação utiliza transformar um valor em real para dólar com uma cotação fixa (5.32).
+Essa aplicação utiliza transformar um valor em real para dólar com uma cotação fixa (R$ 5.32).
 
 ## 🔃 Requisitos para utilizar
 
@@ -23,7 +23,6 @@ Essa aplicação utiliza transformar um valor em real para dólar com uma cotaç
 ## :hammer_and_wrench: Features 
 
 -   [ ] É possível consultar o quanto de dólar certa quantia de reais vale.
-```
 
 ## 🆚 Versionamento/Versioning
 
