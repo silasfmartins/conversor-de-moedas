@@ -66,7 +66,7 @@ input {
 button {
   color: #ffffff;
   background: #DA1E26;
-  font-weight:bold;
+  font-weight: bold;
   padding: 0.9375rem 1.25rem;
   font-size: 1rem;
   border-radius: 0.25rem;
@@ -75,7 +75,7 @@ button {
 }
 
 button:hover {
-  opacity:.8;
+  opacity: .8;
 }
 
 #mensagem {
