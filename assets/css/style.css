@@ -9,40 +9,39 @@
 
 body {
   font-family: 'Roboto Mono',monospace;
-  min-height: 400px;
   background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-1-conversor-de-moedas.png');
   background-color: #000000;
   background-size: 100vh;
-  background-position: center bottom;
+  background-position: center top;
   background-repeat: no-repeat;
-  background-position-y: 100px;
+  background-position-y: 6.25rem;
 }
 
 .container {
   text-align: center;
-  padding: 20px;
+  padding: 1.25em;
   height: 100vh;
 }
 
 .page-title {
   color: #ffffff;
-  margin: 0 0 5px;
+  margin: 0 0 0.3125rem;
 }
 
 .page-subtitle {
   color: #ffffff;
-  margin-top: 5px;
+  margin-top: 0.3125rem;
 }
 
 .page-logo {
-  width: 200px;
+  width: 12.5rem;
 }
 
 .alura-logo {
-  width: 40px;
+  width: 2.5rem;
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 1.6rem;
+  right: 1.6rem;
 }
 
 form {
@@ -50,17 +49,17 @@ form {
   justify-content: center;
   text-align: center;
   align-items: center;
-  gap: 15px;
-  margin: 20px 0;
+  gap: 0.9375rem;
+  margin: 1.25rem 0;
 }
 
 input {
   display: block;
-  padding: 15px 20px;
+  padding: 0.9375rem 1.25rem;
   text-align: center;
   font-weight: bold;
-  font-size: 16px;
-  border-radius: 4px;
+  font-size: 1rem;
+  border-radius: 0.25rem;
   transition: .3s;
 }
 
@@ -68,9 +67,9 @@ button {
   color: #ffffff;
   background: #DA1E26;
   font-weight:bold;
-  padding: 15px 20px;
-  font-size: 16px;
-  border-radius: 4px;
+  padding: 0.9375rem 1.25rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
   cursor: pointer;
   transition: .3s;
 }
@@ -81,5 +80,34 @@ button:hover {
 
 #mensagem {
   color: #ffffff;
-  margin: 20px 0;
+  margin: 1.25rem 0;
+}
+
+@media screen and (min-width:320px) and (max-width: 480px) {
+  .alura-logo {
+    width: 2.5rem;
+    position: relative;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 0;
+  }
+  .page-title, .page-subtitle {
+    display: block;
+    text-align: center;
+  }
+  .page-logo {
+    margin: 1rem 0;
+  }
+  form {
+    display: block;
+  }
+  input {
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  button {
+    margin: 1.25rem 0;
+  }
 }
