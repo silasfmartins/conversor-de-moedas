@@ -12,5 +12,4 @@ btn.addEventListener('click', function(e) {
   var valorEmRealFixado = valorEmReal.toFixed(2)
 
   document.querySelector("#mensagem").innerHTML = `Valor em reais com a cotação de R$5.32: $${valorEmRealFixado}`
-
 });

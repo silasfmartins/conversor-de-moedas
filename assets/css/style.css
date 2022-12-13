@@ -81,6 +81,7 @@ button:hover {
 #mensagem {
   color: #ffffff;
   margin: 1.25rem 0;
+  margin: 0 auto;
 }
 
 @media screen and (min-width:320px) and (max-width: 480px) {
@@ -109,5 +110,8 @@ button:hover {
   }
   button {
     margin: 1.25rem 0;
+  }
+  #mensagem {
+    width: 15rem;
   }
 }
