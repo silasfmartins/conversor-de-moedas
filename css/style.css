@@ -1,0 +1,198 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+body {
+  font-family: 'Roboto Mono',monospace;
+  background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-1-conversor-de-moedas.png');
+  background-color: #000000;
+  background-size: 100vh;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-position-y: 6.25rem;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  justify-content: end;
+}
+
+label {
+  padding: 1rem;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  border-radius: 3rem;
+  height: 0.5rem;
+  background: #121214;
+  justify-content: space-around;
+  gap: 3rem;
+  margin-top: 0.25rem;
+}
+
+.checkbox:checked + label .ball {
+  margin-left: 12rem;
+  transform: translateX(4px);
+}
+
+.ball {
+  border-radius: 100%;
+  padding: 1rem;
+  background: #F1F1F1;
+  transition: transform 0.2s linear;
+  cursor: pointer;
+  position: absolute;
+  margin-right: 6rem;
+}
+
+body.light {
+  background: #fff;
+}
+
+body.light h1 {
+  color: black;
+}
+
+body.light p {
+  color: black;
+}
+
+body.light input {
+  background: #e1e1e6;
+}
+
+body.light #mensagem {
+  color: black;
+}
+
+main {
+  text-align: center;
+  padding: 1.25em;
+  height: 100vh;
+}
+
+h1 {
+  color: #ffffff;
+  margin: 0 0 0.3125rem;
+}
+
+p {
+  color: #ffffff;
+  margin-top: 0.3125rem;
+}
+
+.page-logo {
+  width: 12.5rem;
+}
+
+.alura-logo {
+  width: 2.5rem;
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 0.9375rem;
+  margin: 1.25rem 0;
+}
+
+input {
+  display: block;
+  padding: 0.9375rem 1.25rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: .3s;
+}
+
+button {
+  color: #ffffff;
+  background: #DA1E26;
+  font-weight: bold;
+  padding: 0.9375rem 1.25rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: .3s;
+}
+
+button:hover {
+  opacity: .8;
+}
+
+#mensagem {
+  color: #ffffff;
+  margin: 1.25rem 0;
+  margin: 0 auto;
+}
+
+:root {
+  scrollbar-color: #8F8F8F #374151 ;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track{
+  background: #374151;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #8F8F8F;
+  border-radius: 14px;
+}
+
+@media screen and (min-width:320px) and (max-width: 480px) {
+  .alura-logo {
+    width: 2.5rem;
+    position: relative;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 0;
+  }
+  h1, p {
+    display: block;
+    text-align: center;
+  }
+  .page-logo {
+    margin: 1rem 0;
+  }
+  form {
+    display: block;
+  }
+  input {
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  button {
+    margin: 1.25rem 0;
+  }
+  #mensagem {
+    width: 15rem;
+  }
+}
