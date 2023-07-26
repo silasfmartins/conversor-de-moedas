@@ -1,4 +1,5 @@
 const checkbox = document.querySelector('#checkbox')
+
 const body = document.querySelector('body')
 const btn = document.querySelector("button");
 
