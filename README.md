@@ -22,7 +22,8 @@ Essa aplicação utiliza transformar um valor em real para dólar com uma cotaç
 
 ## :hammer_and_wrench: Features 
 
--   [ ] É possível consultar o quanto de dólar certa quantia de reais vale.
+-   [ ] É possível consultar o quanto de dólar certa quantia de reais vale;
+-   [ ] Acessível em Libras.
 
 ## 🆚 Versionamento/Versioning
 
