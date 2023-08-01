@@ -17,6 +17,7 @@ body {
   background-position-y: 6.25rem;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 header {
